@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Original+Surfer&display=swap');
+*{margin: 0; padding: 0}
+#wrapper{width:2000px;margin: 0 auto; background: #D8DBE8}
+header{width: 100%; height: 1000px;}
+header img{width: 100%;}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.portfolio{width: 100%; margin-top: 200px}
+.portfolio h{font-size: 70px; text-align: center;
+	         margin-left: 400px; color: rgba(154,127,128,1.00);
+             font-family: 'Montserrat', sans-serif;
+             font-family: 'Original Surfer', cursive;}
+.select{width: 30%; height: 100%;
+      padding: 30px; float: left; margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;}
+.select ul{list-style: none}
+.select ul li{margin-top: 70px;height: 100px; line-height: 70px;
+          border-bottom: 3px solid rgba(147,143,143,1.00);
+           font-size: 50px;}
+.select ul li a{display: block; text-decoration: none; color: rgba(71,64,64,1.00)}
+.me{width: 66%; float: left; margin-top: 50px}
+.me img{overflow: hidden; width: 96%;
+	    margin-left: 53px}
+.about-me{width:100%; height: 900px;
+	      padding-top: 100px;}
+.box1{width: 800px; height: 800px;
+	  float: left; margin-left: 70px; margin-top: 50px;
+       border: solid  rgba(100,80,81,1.00)}
+.box1 img{overflow: hidden; height:100%}
+.box3{width: 200px; height: 200px; float: right; margin-right: 100px}
+.box3 img{width: 100%; margin-top: 330px;}
+.box2{width: 950px; height: 900px;
+	  float: left; margin-right: 70px}
+.box2 h1{font-size: 100px; color: rgba(154,127,128,1.00);
+	     text-align: center;
+	     margin-right: 5px; margin-top: 30px;
+         font-family: 'Montserrat', sans-serif;
+         font-family: 'Original Surfer', cursive;}
+.box2 p{font-size: 24px; color: rgba(124,119,152,1.00);
+	    margin-top: 25px; text-align:justify; margin-left: 200px;
+        font-family: 'Montserrat', sans-serif;}
+.skill{width: 100%; height: 1000px; margin-top: 200px}
+.box4{width: 500px; height: 500px; margin-left: 200px; float: left}
+.box-a{width: 500px; height: 50px; border: solid  rgba(151,132,132,1.00);
+	   background: rgba(179,179,179,1.00); float: left; margin-top: 270px; margin-left: 10px;}
+.box-b2{width: 650px; height: 500px; margin-right: 50px; float: left;
+	    margin-left: 50px; margin-top: 100px}
+.box-b2 img{width: 100%; margin-top: 100px}
+.box5{width: 500px; height: 500px; margin-right: 300px; float: right}
+.box-b{width: 200px; height: 50px; border: solid  rgba(151,132,132,1.00);
+	   background: rgba(179,179,179,1.00); float: right; margin-top: 270px; margin-right: 20px;}
+.box-b1{width: 500px; height: 500px; margin-left: 300px}
+.box-b1 img{width: 100%; float: right}
+.artwork{width: 2000px; height: 2000px; margin-right: 300px;
+         display: flex; flex-wrap: wrap; justify-content: center; align-items: center; align-content: center}
+.boxc{width: 100%; height: 500px}
+.boxc img{height: 100%;margin-left: 700px; margin-bottom: 100px}
+.box-c1{width: 500px; height: 500px; background: rgba(126,123,123,1.00); margin-left: 10px; margin-right: 180px}
+.box-c1 img{height: 100%}
+.box-c2{width: 500px; height: 500px; background: rgba(126,123,123,1.00); margin-left: 30px}
+.box-c2 img{height: 100%}
+.box-c3{width: 500px; height: 500px; background: rgba(126,123,123,1.00);
+	    margin-left: 100px; margin-right: 13px}
+.box-c3 img{height: 100%}
+.box-c4{width: 400px; height: 350px;
+	    background: rgba(126,123,123,1.00);
+	    margin-right: 200px; margin-top: 100px}
+.box-c4 img{height: 100%}
+.box-c5{width: 500px; height: 300px;
+	    background: rgba(126,123,123,1.00);
+	    margin-left: 10px; margin-top: 60px; margin-right: 20px}
+.box-c5 img{width: 100%}
+.box-c6{width: 400px; height: 350px;
+	    background: rgba(126,123,123,1.00);
+	    margin-left: 30px; margin-top: 100px; margin-right: 150px}
+.box-c6 img{height: 100%}
+.box-d img{width: 50%;margin-left: 500px}
+.project{width: 100%; height: 3000px; margin-top: 10px; 
+          display: flex; flex-wrap: wrap; flex-direction: column; align-items: center; justify-content: space-between}
+.box-d1{width: 800px; height: 1000px}
+.box-d1 img{width: 100%; border: solid rgba(55,55,55,1.00)}
+.box-d2{width: 800px; height: 1000px}
+.box-d2 img{width: 100%; border: solid rgba(55,55,55,1.00); margin-top: 100px}
+.box-d3{width: 800px; height: 1000px}
+.box-d3 img{width: 100%; border: solid rgba(55,55,55,1.00); margin-top: 200px}
+.contact{width: 100%; height: 600px; margin-top: 500px;text-align: center;}
+.contact img{}
+.contact h2{font-size: 70px; margin-top: 10px; color: rgba(154,127,128,1.00);
+	        text-align: center; margin-bottom: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Original Surfer', cursive;}
+.contact h3{font-size: 70px; margin-top: 30px; color: rgba(154,127,128,1.00);
+	        text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Original Surfer', cursive;}
+.box-e{width: 100%; height: 600px;display: flex;justify-content: center;text-align: center;}
+.fb{width: 600px; height: 500px; margin-top: 30px;}
+.fb img{height: 90%}
+.fb p{font-size: 50px; color: rgba(71,64,64,1.00); margin-left: 90px;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Original Surfer', cursive;}
+.ig{width: 600px; height: 500px; margin-top: 30px}
+.ig img{height: 90%}
+.ig p{font-size: 50px; color: rgba(71,64,64,1.00); margin-left: 90px;
+      font-family: 'Montserrat', sans-serif;
+       font-family: 'Original Surfer', cursive;}
+.da{width: 600px; height: 500px; margin-top: 30px}
+.da img{height: 90%}
+.da p{font-size: 50px; color: rgba(71,64,64,1.00); margin-left: 90px;
+      font-family: 'Montserrat', sans-serif;
+       font-family: 'Original Surfer', cursive;}
+
+
+
+
